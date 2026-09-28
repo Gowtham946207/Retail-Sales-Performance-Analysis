@@ -4,7 +4,6 @@ A complete **Retail Sales Data Analysis and Business Intelligence project** usin
 
 The project analyzes retail transactions to understand **sales, net sales, profit, products, customers, promotions, discounts, orders, and sales trends**.
 
----
 
 ## 📌 Project Overview
 
@@ -23,13 +22,11 @@ The objective of this project is to transform raw retail transaction data into m
 - Order & Unit Analysis
 - Interactive Power BI Reporting
 
----
-
 ## 📁 Dataset
 
 The project uses the following Excel workbook:
 
-```text
+
 data/store_data.xlsx
 
 ## Tables
@@ -42,7 +39,7 @@ data/store_data.xlsx
 The dataset is used for educational and portfolio purposes.
 
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -53,7 +50,7 @@ The dataset is used for educational and portfolio purposes.
 - DAX
 - Git & GitHub
 
-🔄 Project Workflow
+## 🔄 Project Workflow
 
 Excel Dataset
      ↓
@@ -99,7 +96,7 @@ matplotlib
 openpyxl
 jupyter
 
-📏 Key DAX Measures
+## 📏 Key DAX Measures
 
 Total Sales =
 SUM('Fact Table'[Total Sales])
@@ -139,7 +136,7 @@ DIVIDE([Total Profit], [Net Sales], 0)
 
 Complete DAX documentation: powerbi/dax_measures.md
 
-🔍 Business Questions
+## 🔍 Business Questions
 
 This project is designed to answer:
 
@@ -154,7 +151,7 @@ How many orders and units are generated?
 Which customers contribute the most sales?
 How does sales performance change between different periods?
 
-📂 Project Structure
+## 📂 Project Structure
 Retail-Sales-Performance-Analysis/
 │
 ├── data/

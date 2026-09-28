@@ -26,16 +26,18 @@ The objective of this project is to transform raw retail transaction data into m
 
 The project uses the following Excel workbook:
 
-
+```text
 data/store_data.xlsx
-
+```
 ## Tables
+```text
 | Table         | Description               |
 | ------------- | ------------------------- |
 | Fact Table    | Retail sales transactions |
 | Dim Customers | Customer information      |
 | Dim Product   | Product information       |
 | Dim Promotion | Promotion information     |
+```
 The dataset is used for educational and portfolio purposes.
 
 
@@ -51,7 +53,7 @@ The dataset is used for educational and portfolio purposes.
 - Git & GitHub
 
 ## 🔄 Project Workflow
-
+```text
 Excel Dataset
      ↓
 Data Loading
@@ -73,7 +75,7 @@ Interactive Dashboard
 Business Insights
 
 ## Python Analysis
-
+```
 Python is used for:
 
 - Loading Excel data
@@ -90,14 +92,15 @@ Python is used for:
 - Data visualization
 
 ## Main Libraries
+```text
 pandas
 numpy
 matplotlib
 openpyxl
 jupyter
-
+```
 ## 📏 Key DAX Measures
-
+```text
 Total Sales =
 SUM('Fact Table'[Total Sales])
 
@@ -135,23 +138,25 @@ Profit Margin =
 DIVIDE([Total Profit], [Net Sales], 0)
 
 Complete DAX documentation: powerbi/dax_measures.md
-
+```
 ## 🔍 Business Questions
-
+```text
 This project is designed to answer:
 
-What are the total sales and net sales?
-What is the total profit and profit margin?
-Which products generate the highest sales?
-Which cities generate the highest sales?
-How do sales change over time?
-Which promotions perform better?
-How much discount is provided?
-How many orders and units are generated?
-Which customers contribute the most sales?
-How does sales performance change between different periods?
-
+1. What are the total sales and net sales?
+2. What is the total profit and profit margin?
+3. Which products generate the highest sales?
+4. Which cities generate the highest sales?
+5. How do sales change over time?
+6. Which promotions perform better?
+7. How much discount is provided?
+8. How many orders and units are generated?
+9. Which customers contribute the most sales?
+10. How does sales performance change between different periods?
+```
 ## 📂 Project Structure
+
+```text
 Retail-Sales-Performance-Analysis/
 │
 ├── data/
